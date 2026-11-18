@@ -1,4 +1,4 @@
-# Hi, I'm Ioannis (John) Christofilogiannis 👋
+# Hi, I'm John Christofilogiannis 👋
 
 **ML research engineer. Federated learning is my core work:** machine learning that goes to the data instead of pooling it.
 
