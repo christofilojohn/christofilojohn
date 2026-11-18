@@ -1,46 +1,56 @@
-# Ioannis (John) Christofilogiannis
+# Hi, I'm Ioannis (John) Christofilogiannis 👋
 
-**MSc Intelligent Systems · Trinity College Dublin** | [christofilojohn.github.io](https://christofilojohn.github.io)
+**ML research engineer. Federated learning is my core work:** machine learning that goes to the data instead of pooling it.
 
----
+[![Website](https://img.shields.io/badge/Website-christofilojohn.github.io-0A66C2?style=flat-square&logo=googlechrome&logoColor=white)](https://christofilojohn.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-christofilogiannis-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/christofilogiannis/)
+[![Talk](https://img.shields.io/badge/Talk-NVIDIA%20FLARE%20Day%202026-76B900?style=flat-square&logo=nvidia&logoColor=white)](https://www.nvidia.com/en-us/on-demand/session/flareday2026-flare26a09/)
+[![Article](https://img.shields.io/badge/Towards%20Data%20Science-Editor's%20Pick-000000?style=flat-square&logo=medium&logoColor=white)](https://towardsdatascience.com/voting-on-features-federated-feature-selection-without-sharing-data/)
 
-## About
-
-ML researcher and engineer specialising in federated learning, computer vision, and multi-agent reinforcement learning. MEng from the Technical University of Crete; currently pursuing an MSc at Trinity College Dublin. Open-source contributor to [Flower](https://flower.ai) and [NVIDIA FLARE](https://developer.nvidia.com/flare).
-
----
-
-## Research highlights
-
-- **FLASH** — Federated Learning with Attribute Selection & Hyperparameter Optimization. *Best Student Paper, IEEE FLTA 2025.* Integrated into Flower and NVIDIA FLARE. [GitHub](https://github.com/parasecurity/FLASH) · [IEEE Xplore](https://ieeexplore.ieee.org/document/11336571)
-- **Fish disease detection** — YOLO-based detection of fin/operculum/skin deformities in Mediterranean species. Published in *Aquacultural Engineering* (2025). [Paper](https://www.sciencedirect.com/science/article/pii/S0144860925001736)
-- **M50 MAPPO thesis** — MAPPO-based multi-agent RL for travel time reliability on Dublin's M50 motorway (ongoing).
-- **CMU × NVIDIA FL Hackathon** — Winning team (Federated Infrastructure), 2026. [Preprint](https://osf.io/preprints/biohackrxiv/5psfj_v1)
+- 🏆 **Best Student Paper**, IEEE FLTA 2025, for [FLASH](https://ieeexplore.ieee.org/document/11336571)
+- 🟩 My algorithm **Feature Election** is [merged into NVIDIA FLARE](https://github.com/NVIDIA/NVFlare/tree/main/examples/advanced/feature_election) and on [Flower Hub](https://flower.ai/apps/christofilojohn/feature-election)
+- 🎤 Speaker at NVIDIA FLARE Day 2026 and the Federate AI Summit 2026 (Boston)
+- 🎓 MSc Intelligent Systems (Distinction), Trinity College Dublin · MEng ECE, Technical University of Crete
 
 ---
 
-## Selected projects
+## 🔒 Feature Election: federated feature selection
 
-| Project | Description |
-| [YOLO Annotation Tool](https://github.com/christofilojohn/YOLO-Annotation-Tool) | AI-assisted annotation GUI for classification tasks |
-| [Mac Vision Tools](https://github.com/christofilojohn/MacVisionTools) | macOS menu bar app for real-time ML detection |
-| [Hybrid Search](https://github.com/christofilojohn/A-poor-mans-hybrid-search) | BM25 + semantic RRF search (+27% MAP over baseline) |
-| HushPod | macOS noise suppression via DeepFilterNet3 / AVAudioEngine |
-| GroundSense | iPhone LiDAR + open-vocab 3D segmentation for visually impaired |
-| MedML Forge | Privacy-first agentic ML pipeline for hospitals |
+Independent sites agree on the most informative features of high-dimensional, non-IID data **without sharing a single row**. Each site scores features locally; only votes travel to the server.
 
----
+[Paper](https://ieeexplore.ieee.org/document/11336571) · [FLASH on GitHub](https://github.com/parasecurity/FLASH) · [NVIDIA FLARE example](https://github.com/NVIDIA/NVFlare/tree/main/examples/advanced/feature_election) · [Flower Hub](https://flower.ai/apps/christofilojohn/feature-election) · [Article](https://towardsdatascience.com/voting-on-features-federated-feature-selection-without-sharing-data/) · [Talk](https://www.nvidia.com/en-us/on-demand/session/flareday2026-flare26a09/)
 
-## Tech stack
+## 🛠️ Things I've built
+
+| Project | What it is |
+| --- | --- |
+| [**winapfs**](https://github.com/christofilojohn/winapfs) | Mac (APFS) disks on Windows as drive letters: Linux's APFS driver in user mode over WinFsp. C++ |
+| [**MacVisionTools**](https://github.com/christofilojohn/MacVisionTools) | Menu bar app running on-device computer vision models on macOS. Swift · CoreML |
+| [**sumoMacGUI**](https://github.com/christofilojohn/sumoMacGUI) | Native macOS GUI for Eclipse SUMO traffic simulations. SwiftUI · Metal · TraCI |
+| [**Trident**](https://github.com/AquarkGR/Trident) | Prompt → plan → build agent pipeline, with editions for Claude Code, the OpenAI Agents SDK and local Qwen models |
+| [**AgentFeed**](https://github.com/christofilojohn/AgentFeed) | News reader on a local open LLM: files articles by meaning, summarises, translates, answers with citations |
+| [**Irish Tunes**](https://irish-tunes.vercel.app) | Learn Irish through traditional songs. RAG over a curated corpus + an Irish-specialist 24B LLM. *AI Quest Top Award* |
+| [**Hybrid Search**](https://github.com/christofilojohn/A-poor-mans-hybrid-search) | BM25 + dense retrieval fused with RRF: +27% MAP over BM25 on Cranfield. Lucene · FastAPI |
+| [**YOLO Annotation Tool**](https://github.com/christofilojohn/YOLO-Annotation-Tool) | AI-assisted annotation tool built for marine biologists at HCMR. Python · Qt |
+| [**GroundSense**](https://github.com/christofilojohn/GroundSense) | Open-vocabulary 3D scene segmentation and querying for visually impaired users |
+
+## 📄 Publications
+
+- **FLASH: Federated Learning with Attribute Selection and Hyperparameter Optimization** — IEEE FLTA 2025, *Best Student Paper*. [IEEE Xplore](https://ieeexplore.ieee.org/document/11336571) · [preprint](https://zenodo.org/records/18596175)
+- **Automatic Detection of Fin, Operculum & Skin Deformities in Mediterranean Fish** — *Aquacultural Engineering*, first author. [Open access](https://www.sciencedirect.com/science/article/pii/S0144860925001736)
+- **Towards Federated Learning Across Biobanks** — prototype software from the 2026 CMU × NVIDIA Hackathon (3 team awards). [BioHackrXiv](https://osf.io/preprints/biohackrxiv/5psfj_v1)
+- **Multi-agent RL for Travel Time Reliability** — MSc dissertation (Distinction): MAPPO/IPPO vehicle agents on an M50-inspired motorway, collision-free by construction.
+
+## 🧰 Stack
+
 ```
-languages  Python · C/C++ · Swift · Java · VHDL · SQL
-ml/ai      PyTorch · YOLO · Flower · NVIDIA FLARE · PettingZoo
-tools      Docker · ROS · Kubernetes · Git · LaTeX
-platforms  Linux · macOS · iOS/CoreML · AVAudioEngine
+federated   NVIDIA FLARE · Flower · non-IID benchmarking
+ml          PyTorch · TensorFlow · scikit-learn · Hugging Face · YOLO · MAPPO/IPPO
+llm/agents  Claude Code · Anthropic API · OpenAI Agents SDK · RAG · llama.cpp · MLX
+languages   Python · Swift/Metal · C/C++ · Java · SQL
+infra       Docker · Kubernetes · AWS · FastAPI
 ```
 
----
+## 📫 Get in touch
 
-## Connect
-
-[LinkedIn](https://www.linkedin.com/in/ioannis-christofilogiannis/) · [Portfolio](https://christofilogiannis.com) · jchr2001@gmail.com
+[christofilojohn.github.io](https://christofilojohn.github.io) · [LinkedIn](https://www.linkedin.com/in/christofilogiannis/) · jchr2001@gmail.com
