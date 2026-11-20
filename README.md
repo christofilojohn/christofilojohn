@@ -25,7 +25,7 @@ Independent sites agree on the most informative features of high-dimensional, no
 | Project | What it is |
 | --- | --- |
 | [**winapfs**](https://github.com/christofilojohn/winapfs) | Mac (APFS) disks on Windows as drive letters: Linux's APFS driver in user mode over WinFsp. C++ |
-| [**MacVisionTools**](https://github.com/christofilojohn/MacVisionTools) | Menu bar app running on-device computer vision models on macOS. Swift · CoreML |
+| [**MacPercept**](https://github.com/christofilojohn/MacPercept) | Menu bar app running on-device computer vision models on macOS. Swift · CoreML |
 | [**sumoMacGUI**](https://github.com/christofilojohn/sumoMacGUI) | Native macOS GUI for Eclipse SUMO traffic simulations. SwiftUI · Metal · TraCI |
 | [**Trident**](https://github.com/AquarkGR/Trident) | Prompt → plan → build agent pipeline, with editions for Claude Code, the OpenAI Agents SDK and local Qwen models |
 | [**AgentFeed**](https://github.com/christofilojohn/AgentFeed) | News reader on a local open LLM: files articles by meaning, summarises, translates, answers with citations |
